@@ -12,6 +12,6 @@ public class TaskStatusServiceTest {
 
         String result = service.getTaskStatusMessage("S123", "9.1P", "SUBMITTED");
 
-        assertEquals("Task 9.1P for student S123 has been submitted and is waiting for review.", result); // keep wrong for failure
+        assertEquals("Wrong output", result); // keep wrong for failure
     }
 }
